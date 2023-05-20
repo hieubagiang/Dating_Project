@@ -1,0 +1,15 @@
+h2 {
+    padding-top: 40px;
+}
+h5.m-0.text-primary.mt-2 {
+    float: left;
+    padding-left: 70px;
+}
+h5.m-0.text-primary.mt-2.d-flex.justify-content-end {
+    float : right;
+    padding-right: 60px;
+}
+table#dataTable.table.table-bordered {
+    width: 98%;
+    margin-left: 1%;
+}

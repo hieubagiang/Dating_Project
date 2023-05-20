@@ -1,0 +1,191 @@
+name: dating_app
+description: flutter dating_app project
+publish_to: none
+version: 1.12.1+1
+environment: { sdk: '>=2.17.0 <3.0.0' }
+dependencies:
+  flutter: { sdk: flutter }
+
+  #  #firebase
+  firebase_analytics: ^10.1.5
+  firebase_messaging: ^14.2.6
+  firebase_core: ^2.7.1
+  firebase_storage: ^11.2.0
+  cloud_firestore: ^4.4.4
+
+  firebase_auth: ^4.3.0
+
+  #auth
+  google_sign_in: ^6.0.2
+  flutter_facebook_auth: ^5.0.8
+  flutter_verification_code: ^1.1.1
+  form_field_validator: ^1.1.0
+  firebase_phone_auth_handler: ^1.0.6
+
+  fluttertoast: ^8.0.7
+  flutter_screenutil: ^5.0.0+2
+  flutter_local_notifications: ^14.0.0-dev.2
+  equatable: ^2.0.3
+
+
+  get: ^4.6.5
+  # Get Storaget
+  get_storage: ^2.0.3
+
+  #Intl
+  intl: ^0.17.0
+
+  #Json Annotation
+  json_annotation: ^4.8.0
+
+  #Network
+  connectivity_plus: ^2.3.7
+  dio: ^5.0.2
+  mime: ^1.0.0
+
+  #image
+  flutter_svg: ^2.0.5
+  cached_network_image: ^3.1.0
+  image_picker: ^0.8.3+3
+  extended_image: ^7.0.2
+  flutter_image_compress: ^1.1.0
+  image_cropper: ^3.0.1
+  file_picker: ^5.2.6
+  path_provider: ^2.0.3
+
+
+  scrollable_positioned_list: ^0.3.5
+  pull_to_refresh: ^2.0.0
+  flutter_custom_clippers: ^2.0.0
+
+  badges: ^3.0.2
+
+  url_launcher: ^6.0.12
+  geolocator: ^9.0.2
+  font_awesome_flutter: ^10.4.0
+  persistent_bottom_nav_bar: ^5.0.2
+  photo_view: ^0.14.0
+
+  #tinder card
+  swipable_stack: ^2.0.0
+  geocoding: ^2.0.2
+  flutter_countdown_timer: ^4.1.0
+  share_plus: ^6.3.1
+  google_mobile_ads: ^2.3.0
+  random_date: ^0.0.7
+  external_app_launcher: ^3.1.0
+
+  #  media_picker_widget: ^0.0.8
+  camera_web: ^0.3.1+3
+  gallery_saver: ^2.3.2
+  flutter_staggered_grid_view: ^0.4.0
+
+  firebase_database_web: ^0.2.1+24
+  share_plus_web: ^3.1.0
+  sign_in_with_apple_web: ^1.0.1
+  flutter_callkit_incoming: ^1.0.3+3
+  freezed_annotation: ^2.2.0
+  event_bus: ^2.0.0
+  uuid: ^3.0.7
+  jitsi_meet_wrapper:
+    git:
+      url: https://github.com/hieubagiang/jitsi_meet_wrapper.git
+      ref: main # branch name
+      path: jitsi_meet_wrapper
+  simple_ripple_animation: ^0.0.7
+  flutter_ringtone_player: ^3.2.0
+  flutter_gen_runner: ^5.3.0
+  webview_flutter: ^4.2.0
+  collection: ^1.17.0
+  money2: ^3.3.0
+  flutter_dotenv: ^5.0.2
+  flutter_smart_dialog: ^4.9.0+6
+  shimmer: ^2.0.0
+  either_dart: ^0.4.0
+  infinite_scroll_pagination: ^3.2.0
+  emoji_picker_flutter: ^1.5.4
+  media_picker_widget: ^0.0.9
+  firebase_app_check: ^0.1.4
+  easy_localization: 3.0.1
+  easy_localization_loader: ^1.0.1+1
+  permission_handler: ^10.2.0
+  flutter_downloader: ^1.10.2
+  get_it: ^7.6.0
+  injectable: ^2.1.1
+  logger: ^1.3.0
+  external_path: ^1.0.3
+  chewie: ^1.5.0
+  video_player: ^2.6.1
+
+dev_dependencies:
+  flutter_test: { sdk: flutter }
+  lints: ^2.0.1
+  flutter_lints: ^2.0.1
+  flutter_launcher_icons: ^0.12.0
+  flutter_native_image: ^0.0.6+1
+  build_runner: ^2.1.1
+  flutter_native_splash: ^2.2.19
+  json_serializable: ^6.6.1
+  retrofit_generator: 6.0.0+1
+  freezed: ^2.3.2
+  dependency_validator: ^3.0.0
+  injectable_generator: ^2.1.5
+
+dependency_overrides:
+  intl: ^0.17.0
+  jitsi_meet_wrapper_platform_interface:
+    git:
+      url: https://github.com/hieubagiang/jitsi_meet_wrapper.git
+      ref: main # branch name
+      path: jitsi_meet_wrapper_platform_interface
+
+  photo_manager: ^2.6.0
+
+flutter_gen:
+  output: lib/gen/ # Optional (default: lib/gen/)
+  line_length: 80 # Optional (default: 80)
+
+  integrations:
+    flutter_svg: true
+
+  assets:
+    enabled: true
+    outputs:
+      class_name: Assets
+      package_parameter_enabled: false
+
+  fonts:
+    enabled: true
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/svg/
+    - assets/images/
+    - assets/sounds/
+    - assets/env/
+  fonts:
+    - family: SFUIDisplay
+      fonts:
+        - asset: assets/fonts/sf-ui-display-thin.ttf
+          weight: 100
+        - asset: assets/fonts/sf-ui-display-light.ttf
+          weight: 300
+        - asset: assets/fonts/sf-ui-display-normal.ttf
+          weight: 400
+        - asset: assets/fonts/sf-ui-display-medium.ttf
+          weight: 500
+        - asset: assets/fonts/sf-ui-display-semibold.ttf
+          weight: 600
+        - asset: assets/fonts/sf-ui-display-bold.ttf
+          weight: 700
+        - asset: assets/fonts/sf-ui-display-heavy.ttf
+          weight: 800
+        - asset: assets/fonts/sf-ui-display-black.ttf
+          weight: 900

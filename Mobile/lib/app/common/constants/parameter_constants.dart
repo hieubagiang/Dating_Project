@@ -1,0 +1,31 @@
+class ParameterConstants {
+  static const id = 'id';
+  static const page = 'page';
+  static const size = 'size';
+  static const sort = 'sort';
+  static const search = 'feed';
+  static const name = 'name';
+  static const address = 'address';
+  static const stadiumId = 'stadiumId';
+  static const teamId = 'teamId';
+  static const uploadType = 'uploadType';
+  static const userName = 'username';
+  static const playerId = 'playerId';
+  static const startDate = 'startDate';
+  static const endDate = 'endDate';
+  static const teamIds = 'teamIds';
+  static const matchId = 'matchId';
+  static const soccerFieldName = 'name';
+  static const longitude = 'longitude';
+  static const latitude = 'latitude';
+  static const categoryIds = 'categoryIds';
+  static const paymentId = 'paymentId';
+  static const hasModifyPermission = 'hasModifyPermission';
+  static const matchStates = 'matchStates';
+  static const receiverId = 'receiverId';
+  static const notificationId = 'notificationId';
+  static const requestPaymentId = 'requestPaymentId';
+  static const revenueStatus = 'revenueStatus';
+  static const revenueId = 'revenueId';
+  static const restrictPlayerIds = 'restrictPlayerIds';
+}
